@@ -1,0 +1,63 @@
+.infoprod{
+    display: flex;
+    flex-direction: column;
+}
+
+.infoprod_uldiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+
+.colorprod{
+    color: #C7C7C7;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.priceprod{
+    font-weight: 600;
+}
+
+.btn_infoprod{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #FA8D8D;
+    color: white;
+}
+
+.btn_infoprod:hover{
+    background-color: #FF0000;
+}
+
+
+.btnprin_infoprod{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnclick_infoprod{
+    padding: 5px;
+    border-radius: 5px;    
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.texts h2{
+    color: #C7C7C7;
+}
+
+.texts h3{
+    color: #FA8D8D;
+}

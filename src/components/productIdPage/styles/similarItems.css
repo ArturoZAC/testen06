@@ -1,0 +1,13 @@
+.dca{
+    display: flex;
+    gap: 50px;
+}
+
+.sim_h2{
+    color: #FA8D8D;
+    text-align: center;
+}
+
+.sim_section{
+    margin: 50px 0px;
+}

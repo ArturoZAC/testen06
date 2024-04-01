@@ -1,0 +1,51 @@
+.productsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.filtersContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+    width: 400px;
+}
+
+.global{
+    display: flex;
+    flex-direction: row;
+}
+
+.products {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.int{
+    width: 600px;
+    height: 30px;
+    padding: 20px;
+    border: .5px solid #CCC7C7;
+    margin-top: 20px;
+}
+
+.int::placeholder{
+    color: #CCC7C7;
+}
+
+.prubdiv{
+    text-align: center;
+}
+
+.prubdiv h3{
+    color: #F85555;
+}

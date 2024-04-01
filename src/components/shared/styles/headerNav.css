@@ -1,0 +1,23 @@
+.headerNav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    border: 0.1px solid #C7C7C7;
+}
+
+.headerNav__list{
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.navoff{
+    margin-right: 40px;
+}
+
+.headerNav h1{
+    color: #FA8D8D;
+}
+

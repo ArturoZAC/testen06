@@ -1,0 +1,43 @@
+.reg_cont {
+    display: flex;
+    background-color: #F7F7F7;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.reg_form{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 30px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.reg_div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.reg_div input{
+    height: 35px;
+    padding: 15px;
+}
+
+.log_btn{
+    width: 300px;
+    height: 35px;
+    background-color: #F85555;
+    color: white;
+}
+
+.reg_h3{
+    text-align: left;
+    margin: 0px auto 0px 0px;
+}
